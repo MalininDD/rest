@@ -1,0 +1,10 @@
+server:
+  AppVersion: 1.0.0
+  Host: 127.0.0.1
+  Port: 14481
+  IPHeader: "Cf-Connecting-Ip"
+  DisableAPISecurity: false
+  DisableAuthorization: false
+  ShowUnknownErrorsInResponse: false
+  Middleware:
+    Production: true
